@@ -2,7 +2,7 @@
 //Se o numero for negativo, multiplica por -1 para não tentar acessar a posição -1, inezistente.
 function OP1(){
   let resultado = [0,0,0,0]
-  for (let i = 0, numero = 0 i < 5 i++) {
+  for (let i = 0, numero = 0; i < 5; i++) {
     numero = parseInt(gets())
     resultado[(numero > 0)?numero % 2:numero % 2 * -1]++
     if(numero != 0)
@@ -18,7 +18,7 @@ ${resultado[3]} valor(es) negativo(s)`)
 function OP2(){
   let resultado = ["par(es)","impar(es)","positivo(s)","negativo(s)"]
     .map(x=> {return {qtd:0,txt:x}})
-  for (let i = 0, numero = 0 i < 5 i++) {
+  for (let i = 0, numero = 0; i < 5; i++) {
     numero = parseInt(gets())
     resultado[numero % 2 * -1].qtd++
     (numero > 0)?resultado[2].qtd++:resultado[3].qtd++
