@@ -7,12 +7,12 @@ function OP1(){
     resultado[(numero > 0)?numero % 2:numero % 2 * -1]++
     if(numero != 0)
       (numero > 0)?resultado[2]++:resultado[3]++
+  }
   //Mixins
   console.log(`${resultado[0]} valor(es) par(es)
 ${resultado[1]} valor(es) impar(es)
 ${resultado[2]} valor(es) positivo(s)
 ${resultado[3]} valor(es) negativo(s)`)
-  }
 }
 
 //Usando arrays e objetos
