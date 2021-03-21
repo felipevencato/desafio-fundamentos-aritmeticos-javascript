@@ -12,6 +12,7 @@ function OP1(){
 ${resultado[1]} valor(es) impar(es)
 ${resultado[2]} valor(es) positivo(s)
 ${resultado[3]} valor(es) negativo(s)`)
+  }
 }
 
 //Usando arrays e objetos
